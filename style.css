@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+*{margin: 0;padding: 0;}
+
+section{position: relative;
+height: 100vh;}
+section .rgb{width: 500px;position: absolute;
+    height: 500px;
+left: 400px;
+top: 200px;}
+#rgbKineticSlider canvas{position: absolute;}
+
+nav .main-nav{position:absolute;
+   color: rgb(211, 232, 252);
+    top: 50%;
+    font-size: 25px;
+}
+nav .prev{left: 0%;}
+nav .next{right: 0%;}
